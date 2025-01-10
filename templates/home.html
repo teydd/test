@@ -15,37 +15,23 @@
     </style>
 </head>
 <body class="bg-light">
-    <div class="bg-white container-xxl row">
-            <a class="col-sm-4 navbar navbar-brand justify-content-start" href="#"><img class="img-fluid rounded-pill" src="{{url_for('static',filename='images/teddy.jpg')}}" width="90px" alt="">AFROTECH</a>
-            <ul class="fw-bold col-sm-4 nav nav-item d-sm-none d-md-flex my-5 justify-content-between" id="my">
-                <li class="nav-link">HOME</li>
-                <li class="nav-link">PROJECTS</li>
-                <li class="nav-link">ABOUT</li>
-                <li class="nav-link">CONTACT</li>
-            </ul>
-          
-    </div>
-    <section id="start">
-        <div class="bg-white container-lg">
+    <section>
+        <div class="container-lg bg-white rounded">
             <div class="row justify-content-center">
-                <div class="col-md-5 text-center text-md-start text-align-center">
+                <div class="col-sm-4 col-md-6 text-md-center">
                     <h1>
-                        <div class="display-1">TEDDY OGEGA CHEMOS</div>
-                        <div class="display-2 text-muted">THE GREATEST TECHNICIAN</div>
+                        <div class="display-1 fw-bold">TEDDY OGEGA CHEMOS</div>
+                        <div class="display-2 text-muted"><i>AfroTech Samurai</i></div>
                     </h1>
-                    <p class="lead muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta iste eligendi unde ipsam. Illum doloremque aliquam ad alias laboriosam qui?</p>
-                    <button class="btn-info btn btn-sm" data-bs-toggle="collapse" data-bs-target="#more">MORE</button>
-                    <div class="collapse" id="more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam sunt laboriosam vero repellat quam laborum harum illum voluptate tempora.</div>
+                    <i><p class="text-info">Driving Innovation and Growth in Tech: Seasoned Leader and Strategic Visionary</p></i>
+                    <button class="btn btn-info btn-sm" data-bs-toggle="collapse" data-bs-target="#more"><i>MORE</i></button>
+                    <div class="text- collapse" id="more">WHO YOU GONNA CALL?!?!</div>
                 </div>
-                <div class="col-md-7 text-center d-none d-md-block">
-                    <img class="img img-fluid" src="{{url_for('static',filename='images/teddy.jpg')}}" alt="">
+                <div class="col-sm-4 col-md-6 d-none d-md-block">
+                    <img src="{{url_for('static',filename='images/teddy.jpg')}}" alt="" class="img img-fluid rounded-pill">
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <p class="muted display-3 text-center "><i>WELCOME TO MY PORTFOLIO</i></p>
-    </section>
- 
 </body>
 </html>
